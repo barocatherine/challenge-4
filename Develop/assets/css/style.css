@@ -1,0 +1,125 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: white
+    height: 100%;
+    width: 100%;
+  }
+  .quiz-container{
+    margin: 80px auto;
+    height: 600px auto;
+    width: 330px;
+    background-color:#047685;
+    border-style: solid;
+    border-width: 18px;
+    border-color:#047685;
+    border-radius: 8px;
+  }
+  .time-bar{
+    margin:30px auto;
+    width: 300px;
+    height:30px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: white;
+  }
+  .time-left{
+    width: 300px;
+    height:30px;
+    border-style: none;
+    border-radius: 20px;
+    border-color: #bb7b04;
+    background-color: #bb7b04;
+  }
+  .time{
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+  }
+  .q-text{
+    color: whitesmoke;
+    text-align: left;
+    margin-left:20px;
+    margin-top: 30px;
+     font-family: 'Tahoma', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  #question{
+     font-family: 'Tahoma', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color:white;
+    padding:10px 20px 10px 20px;
+
+  }
+  .btn{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+     font-family: 'Tahoma', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color:transparent;
+    color:white;
+    border-color: #254567;
+    outline:none;
+    
+    
+  }
+  .btn:hover{
+    background: linear-gradient(90deg, rgb(230, 153, 10) 46%, rgb(233, 152, 45) 50%, rgb(245, 245, 248) 100%);
+    
+  }
+  #next{
+    padding: 15px 40px 15px 40px;
+      font-family: 'Tahoma', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    background-color:#117EEB;
+    color:white;
+    border-color: #117EEB;
+    margin-left: 100px;
+    margin-top: 10px;
+    outline:none;
+
+
+  }
+  #next:hover{
+    background-color: white;
+    color:#117EEB;
+    border-color:white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .il{
+    color:white;
+    font-size: 100px;
+    margin-top:130px;
+    margin-left: 110px;
+  }
+  .card{
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color:white;
+    text-align: center;
+
+  }
+  ol li {
+    font-family: 'Tahoma', sans-serif;  
+    background: #047685;
+    padding: 5px;
+    margin-left: 35px;
+    color: white;
+    text-align: left;
+  }
